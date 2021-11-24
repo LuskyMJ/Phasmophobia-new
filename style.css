@@ -44,3 +44,7 @@ footer {
     height: 7.5%;
     background: white;
 }
+
+.betternet-wrapper {
+    display: none;
+}
