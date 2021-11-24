@@ -46,5 +46,6 @@ footer {
 }
 
 .betternet-wrapper {
-    display: none;
+    height: 0%;
+    width: 0%;
 }
