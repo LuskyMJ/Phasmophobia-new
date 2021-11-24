@@ -1,0 +1,148 @@
+{
+    "Banshee": {
+        "Evidence": [
+            "Fingerprints",
+            "Orbs",
+            "DOTS"
+        ]
+    },
+    "Demon": {
+        "Evidence": [
+            "Fingerprints",
+            "Writing",
+            "Freezing"
+        ]
+    },
+    "Goryo": {
+        "Evidence": [
+            "EMF",
+            "Fingerprints",
+            "DOTS"
+        ]
+    },
+    "Hantu": {
+        "Evidence": [
+            "Fingerprints",
+            "Orbs",
+            "Freezing"
+        ]
+    },
+    "Jinn": {
+        "Evidence": [
+            "EMF",
+            "Fingerprints",
+            "Freezing"
+        ]
+    },
+    "Mare": {
+        "Evidence": [
+            "Spirit box",
+            "Orbs",
+            "Writing"
+        ]
+    },
+    "Myling": {
+        "Evidence": [
+            "EMF",
+            "Fingerprints",
+            "Writing"
+        ]
+    },
+    "Obake": {
+        "Evidence": [
+            "EMF",
+            "Fingerprints",
+            "Orbs"
+        ]
+    },
+    "Oni": {
+        "Evidence": [
+            "EMF",
+            "Freezing",
+            "DOTS"
+        ]
+    },
+    "Onryo": {
+        "Evidence": [
+            "Spirit box",
+            "Orbs",
+            "Freezing"
+        ]
+    },
+    "Phantom": {
+        "Evidence": [
+            "Spirit box",
+            "Fingerprints",
+            "DOTS"
+        ]
+    },
+    "Poltergeist": {
+        "Evidence": [
+            "Spirit box",
+            "Writing",
+            "Fingerprints"
+        ]
+    },
+    "Raiju": {
+        "Evidence": [
+            "EMF",
+            "Orbs",
+            "DOTS"
+        ]
+    },
+    "Revenant": {
+        "Evidence": [
+            "Orbs",
+            "Writing",
+            "Freezing"
+        ]
+    },
+    "Shade": {
+        "Evidence": [
+            "EMF",
+            "Writing",
+            "Freezing"
+        ]
+    },
+    "Spirit": {
+        "Evidence": [
+            "EMF",
+            "Spirit box",
+            "Writing"
+        ]
+    },
+    "The Twins": {
+        "Evidence": [
+            "EMF",
+            "Spirit box",
+            "Freezing"
+        ]
+    },
+    "Wraith": {
+        "Evidence": [
+            "EMF",
+            "Spirit box",
+            "DOTS"
+        ]
+    },
+    "Yokai": {
+        "Evidence": [
+            "Spirit box",
+            "Orbs",
+            "DOTS"
+        ],
+        "Strength": "Has a hunt threshold of 80% sanity while players are talking near it.",
+        "Weakness": "During a hunt it can only hear player/sense equipment within 2 meters.",
+        "Ability": "Unknown"
+    },
+    "Yurei": {
+        "Evidence": [
+            "Orbs",
+            "Freezing",
+            "DOTS"
+        ],
+        "Strenth": "If within 10 meters of a manifested Yurei your sanity will drop by 0.4% per second instead of the normal ghost drain of 0.2% per second.",
+        "Weakness": "When smudged, the Yurei can't leave it's ghost room for the duration of the smudge (90 seconds).",
+        "Ability": "Drops the sanity of all players by an unkown amount regardless of their position."
+    }
+}
