@@ -19,7 +19,7 @@ body {
 
 .buttons {
     width: 50%;
-    height: 10%;
+    height: 7.5%;
     display: flex;
     border: none;   
 }
@@ -35,9 +35,12 @@ body {
 
 .output {
     width: 50%;
-    background-color: rgba(100, 100, 100, 0.5);
+    height: 85%;
+    background-color: rgba(100, 100, 100, 0.85);
 }
-/*
-#dots, #emf, #fingerprints, #freezing, #orbs, #writing, #spirit {
-    background: lightgray;
-}*/
+
+footer {
+    width: 50%;
+    height: 7.5%;
+    background: white;
+}
