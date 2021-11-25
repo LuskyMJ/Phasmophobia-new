@@ -1,15 +1,10 @@
-// Evidence buttons
+// Variables
 dots = document.getElementById("dots");
 emf = document.getElementById("emf");
 fingerprints = document.getElementById("fingerprints");
 freezing = document.getElementById("freezing");
 orbs = document.getElementById("orbs");
 writing = document.getElementById("writing");
-
-ghosts = fetch("https://luskymj.github.io/Phasmophobia-new/ghosts.json").then(function(response) {
-    return response.json();
-})
-console.log(ghosts);
 
 // Evidence arrays
 var confirmedEvidence = [];

@@ -74,56 +74,80 @@
             "Spirit box",
             "Fingerprints",
             "DOTS"
-        ]
+        ],
+        "Strength": "If within 10 meters of a manifested Yurei your sanity will drop by 0.4% per second instead of the normal sanity drain of 0.2% per second.",
+        "Weakness": "Taking a photo of the Phantom will make it disappear. Will not stop hunts or ghost events.",
+        "Ability": "Can walk to a random players location and leave an emf-3 at the starting location. During a hunt it will blink visible every 1 - 2 seconds instead of the default 0.3 - 1 seconds."
     },
     "Poltergeist": {
         "Evidence": [
             "Spirit box",
             "Writing",
             "Fingerprints"
-        ]
+        ],
+        "Strength": "Poltergesit can throw multiple objects at once.",
+        "Weakness": "Cannot throw multiple objects if there aren't any objects.",
+        "Ability": "If it uses it's multi-throw ability, every nearby player will loose two sanity for each item that was thrown."
     },
     "Raiju": {
         "Evidence": [
             "EMF",
             "Orbs",
             "DOTS"
-        ]
+        ],
+        "Strength": "It will travel at 2.5 m/s for some time if it steps on any electrical equipment, barring headmounted camera, motion and sound sensors.",
+        "Weakness": "It disrupts electrical equipment at a greater than normal radius that increases with the map size, making it easier to track.",
+        "Ability": "While nearby electrical equipment it's hunting threshold increases to 65% sanity."
     },
     "Revenant": {
         "Evidence": [
             "Orbs",
             "Writing",
             "Freezing"
-        ]
+        ],
+        "Strength": "A Revenant will travel at double the default ghost movement speed if it has light of sight with a player.",
+        "Weakness": "Will travel at 0.5 the default ghost movement speed if it doesn't have line of sight with a player",
+        "Ability": "None"
     },
     "Shade": {
         "Evidence": [
             "EMF",
             "Writing",
             "Freezing"
-        ]
+        ],
+        "Strength": "Hard to find because they are less active.",
+        "Weakness": "Cannot hunt if there's multiple people nearby.",
+        "Ability": "None"
     },
     "Spirit": {
         "Evidence": [
             "EMF",
             "Spirit box",
             "Writing"
-        ]
+        ],
+        "Strength": "None",
+        "Weakness": "Smudging it will prevent it from hunting for 180 seconds instead of the default 90 seconds.",
+        "Ability": "None"
     },
     "The Twins": {
         "Evidence": [
             "EMF",
             "Spirit box",
             "Freezing"
-        ]
+        ],
+        "Strength": "Can initiate an attack from either of The Twins.",
+        "Weakness": "Often interacts with the enviroment at the same time.",
+        "Ability": "One of The Twins is faster that the other."
     },
     "Wraith": {
         "Evidence": [
             "EMF",
             "Spirit box",
             "DOTS"
-        ]
+        ],
+        "Strength": "Doesn't set footprints when stepping in salt.",
+        "Weakness": "Toxic reaction to salt?",
+        "Special": "Can teleport to players randomly."
     },
     "Yokai": {
         "Evidence": [
@@ -132,7 +156,7 @@
             "DOTS"
         ],
         "Strength": "Has a hunt threshold of 80% sanity while players are talking near it.",
-        "Weakness": "During a hunt it can only hear player/sense equipment within 2 meters.",
+        "Weakness": "During a hunt it can only hear players and sense equipment within 2 meters.",
         "Ability": "Unknown"
     },
     "Yurei": {
@@ -141,7 +165,7 @@
             "Freezing",
             "DOTS"
         ],
-        "Strenth": "If within 10 meters of a manifested Yurei your sanity will drop by 0.4% per second instead of the normal ghost drain of 0.2% per second.",
+        "Strength": "If within 10 meters of a manifested Yurei your sanity will drop by 0.4% per second instead of the normal sanity drain of 0.2% per second.",
         "Weakness": "When smudged, the Yurei can't leave it's ghost room for the duration of the smudge (90 seconds).",
         "Ability": "Drops the sanity of all players by an unkown amount regardless of their position."
     }
