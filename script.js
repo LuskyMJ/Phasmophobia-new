@@ -5,7 +5,11 @@ fingerprints = document.getElementById("fingerprints");
 freezing = document.getElementById("freezing");
 orbs = document.getElementById("orbs");
 writing = document.getElementById("writing");
-spirit = document.getElementById("spirit");
+
+ghosts = fetch("https://luskymj.github.io/Phasmophobia-new/ghosts.json").then(function(response) {
+    return response.json();
+})
+console.log(ghosts);
 
 // Evidence arrays
 var confirmedEvidence = [];
